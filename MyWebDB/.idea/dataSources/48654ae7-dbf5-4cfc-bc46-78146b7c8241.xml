@@ -16,35 +16,38 @@
     <schema id="10" parent="1" name="sys"/>
     <schema id="11" parent="1" name="userdb"/>
     <schema id="12" parent="1" name="world"/>
-    <table id="13" parent="2" name="users"/>
+    <table id="13" parent="2" name="books"/>
     <column id="14" parent="13" name="ID">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="15" parent="13" name="NAME">
+    <column id="15" parent="13" name="TITLE">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="16" parent="13" name="AGE">
+    <column id="16" parent="13" name="DESCRIPTION">
       <Position>3</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="17" parent="13" name="IS_ADMIN">
+    <column id="17" parent="13" name="AUTHOR">
       <Position>4</Position>
-      <DataType>tinyint(1)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="18" parent="13" name="CREATED_DATE">
+    <column id="18" parent="13" name="ISBN">
       <Position>5</Position>
-      <DataType>timestamp|0</DataType>
-      <NotNull>1</NotNull>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <DataType>varchar(20)|0</DataType>
     </column>
-    <key id="19" parent="13" name="PRIMARY">
+    <column id="19" parent="13" name="READ_ALREADY">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+    </column>
+    <column id="20" parent="13" name="PRINT_YEAR">
+      <Position>6</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="21" parent="13" name="PRIMARY">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
