@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INSERT INTO test.books (ID, TITLE, DESCRIPTION, AUTHOR, ISBN, PRINT_YEAR, READ_ALREADY) VALUES ('1', 'Brotherhood of the Ring', 'First in town', 'J.R.R. Tolkien', '0-395-08254-1', 1954, FALSE);
 INSERT INTO test.books (ID, TITLE, DESCRIPTION, AUTHOR, ISBN, PRINT_YEAR, READ_ALREADY) VALUES ('2', '1984', 'Guide to Russia', 'Orwell', '0-395-08254-2', 1955, FALSE);
 INSERT INTO test.books (ID, TITLE, DESCRIPTION, AUTHOR, ISBN, PRINT_YEAR, READ_ALREADY) VALUES ('3', 'Two towers', 'Best in town', 'J.R.R. Tolkien', '0-395-08254-3', 1956, FALSE);
@@ -25,3 +26,15 @@ INSERT INTO test.books (ID, TITLE, DESCRIPTION, AUTHOR, ISBN, PRINT_YEAR, READ_A
 INSERT INTO test.books (ID, TITLE, DESCRIPTION, AUTHOR, ISBN, PRINT_YEAR, READ_ALREADY) VALUES ('25', 'Soul Music', 'How many times one should roll the rock?', 'Terry Pratchett', '0-395-08254-25', 1978, FALSE);
 
 
+=======
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('1', 'Vladimir Putin', 64, true, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('2', '123321', 10, true, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('3', 'Gender Bender', 4, true, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('4', 'Admin', 50, false, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('5', 'qwerty', 1, false, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('6', 'ytrewq', 33, true, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('7', 'Kurt Donald Cobain', 27, false, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('8', 'Invalid_Name', 200, false, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('9', 'Ave, Rege', 666, true, NULL );
+INSERT INTO test.users (ID, NAME, AGE, IS_ADMIN, CREATED_DATE) VALUES ('10', 'Lucky_777_Number', 13, false, NULL );
+>>>>>>> 75c8485d2675a0e5920f8b01dfefaeadf7a39dfd
