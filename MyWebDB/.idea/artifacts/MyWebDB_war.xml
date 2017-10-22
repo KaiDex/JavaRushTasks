@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="MyWebDB:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="MyWebDB.war">
-      <element id="artifact" artifact-name="MyWebDB:war exploded" />
-    </root>
-  </artifact>
-</component>
